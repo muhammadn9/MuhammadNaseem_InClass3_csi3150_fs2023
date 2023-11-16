@@ -1,4 +1,3 @@
-/* CounterComponent.css */
 .counter-container {
   text-align: center;
   margin: 50px auto;
@@ -16,7 +15,8 @@
   cursor: pointer;
 }
 
-/* Optional: Add styling to make it visually appealing */
 .counter-buttons button:hover {
-  background-color: #ddd;
+  background-color: red;
+  /* width: 50px; */
+  transition: 2s;
 }
